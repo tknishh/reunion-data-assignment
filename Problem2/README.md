@@ -55,7 +55,7 @@ ORDER BY total_quantity DESC
 LIMIT 5;
 ```
 
-To furrther bifuurcate the sales by product variants, we can use the following query:
+To further bifuurcate the sales by product variants, we can use the following query:
 
 ```
 SELECT Products.name, Variants.name, SUM(OrderItems.quantity) AS total_quantity
