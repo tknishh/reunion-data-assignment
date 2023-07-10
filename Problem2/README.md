@@ -12,7 +12,7 @@ With the above data, write SQL queries for the following:
 ### 1. Retrieve the top 5 customers who have made the highest average order amounts in the last 6 months. The average order amount should be calculated for each customer, and the result should be sorted in descending order.
 
 ```
-SELECT Customers.customer_id, Customers.name, AVG(Orders.total_amount) AS average_order_amount
+SELECT Customers.customer_id, Customers.name, AVG(Orders.total) AS average_order_amount
 FROM Customers
 JOIN Orders ON Customers.customer_id = Orders.customer_id
 WHERE Orders.order_date >= DATE('now', '-6 months')
