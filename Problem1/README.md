@@ -1,4 +1,4 @@
-## Problem 1: Data Modelling
+abs## Problem 1: Data Modelling
 
 Imagine you are designing a database for an e-commerce platform. The database should store information about products, customers, orders, and order items. Each order can contain multiple order items, and each order item is associated with a specific product. Each customer can have multiple orders. Customer details such as shipping address, contact number etc. can change over time. We want to retain the historical information as well in our schema.
 
@@ -25,3 +25,8 @@ Imagine you are designing a database for an e-commerce platform. The database sh
 - Orders have a one-to-many relationship with Order Items since each order can contain multiple order items.
 - Order Items are associated with specific products through the product_id foreign key.
 - Products entity contains information about the products such as name, description, and category.
+
+
+### 2. Data Generation 
+
+Here we generate a fake database using the faker library to populate our tables. The provided code in `dataGeneration.ipynb` generates a sample SQLite database for an e-commerce platform. It creates tables for customers, orders, order items, and products. Random data, including customer details, order history spanning two years, and product information, is inserted into the tables, allowing for testing and development of e-commerce database operations.
