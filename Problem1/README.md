@@ -18,3 +18,10 @@ Imagine you are designing a database for an e-commerce platform. The database sh
 ### 1. Data model
 
 ![DataModel](DataModel.png)
+
+**Explanation:**
+- The main entities in the schema are Customers, Orders, Order Items, and Products.
+- Customers have a one-to-many relationship with Orders since each customer can have multiple orders.
+- Orders have a one-to-many relationship with Order Items since each order can contain multiple order items.
+- Order Items are associated with specific products through the product_id foreign key.
+- Products entity contains information about the products such as name, description, and category.
