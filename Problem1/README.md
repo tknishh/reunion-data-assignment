@@ -25,6 +25,7 @@ Imagine you are designing a database for an e-commerce platform. The database sh
 - Orders have a one-to-many relationship with Order Items since each order can contain multiple order items.
 - Order Items are associated with specific products through the product_id foreign key.
 - Products entity contains information about the products such as name, description, and category.
+- Also since Customers details are subjected to change over a time whoch define them as SCD. We introduce a current_flag column that depicts whether the details of the customer are updated or not.
 
 
 ### 2. Data Generation 
