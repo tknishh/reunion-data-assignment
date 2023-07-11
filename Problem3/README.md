@@ -6,14 +6,14 @@ The below given json file contains data related to orchestra, theirs concerts, w
 
 You are required to:
 
-1. Load the data and perform transformations to simply the data and store it a normalized manner into smaller tables which are easier to analyze
+1. Load the data and perform transformations to simply the data and store it in a normalized manner into smaller tables which are easier to analyze
 2. Prepare an ERD of the normalized data tables showing relationships between the various entities
 3. Implement the transformation using python and SQL both and submit two separate solutions
 
 
 ## Solution
 
-### 1. Load the data and perform transformations to simply the data and store it a normalized manner into smaller tables which are easier to analyze
+### 1. Load the data and perform transformations to simply the data and store it in a normalized manner into smaller tables which are easier to analyze
 Solution can be found in `dataSimplify.ipynb` file.
 
 ### 2. Prepare an ERD of the normalized data tables showing relationships between the various entities
