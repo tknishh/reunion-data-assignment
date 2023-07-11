@@ -1,4 +1,4 @@
-### Problem 4: Streaming
+## Problem 4: Streaming
 
 Download and upload the below json files to a cloud storage (Azure, AWS, GCP) manually 
 
@@ -10,3 +10,6 @@ You are required to:
 2. Write the ingested data to a table without any transformations
 3. Infer the schema of the ingested data automatically instead of providing the schema manually
 4. Auto-detection of new files in the cloud folder if more json files are added to it.
+
+## Solution
+
