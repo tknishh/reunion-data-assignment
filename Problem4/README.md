@@ -13,4 +13,4 @@ You are required to:
 
 ## Solution
 
-Tried to complete this problem to but i guess there are some issues with my spark configurations. 
+Tried to complete this problem to but i guess there are some issues with my spark configurations. You may check `streaming.ipynb` for details.
