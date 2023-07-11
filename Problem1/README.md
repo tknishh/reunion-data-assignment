@@ -1,4 +1,4 @@
-abs## Problem 1: Data Modelling
+## Problem 1: Data Modelling
 
 Imagine you are designing a database for an e-commerce platform. The database should store information about products, customers, orders, and order items. Each order can contain multiple order items, and each order item is associated with a specific product. Each customer can have multiple orders. Customer details such as shipping address, contact number etc. can change over time. We want to retain the historical information as well in our schema.
 
