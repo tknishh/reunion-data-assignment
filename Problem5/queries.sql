@@ -4,8 +4,14 @@
 -- Start DATETIME
 -- End DATETIME
 -- Activity VARCHAR(255)
--- 
 
+-- If you don't have this table, you can create it with the following command:
+CREATE TABLE TimeSeries (Name VARCHAR(255), Start DATETIME, End DATETIME, Activity VARCHAR(255));
+
+-- You can then insert data into the table with the following command after converting the excel file into csv file:
+COPY TimeSeries FROM 'timeseries.csv' DELIMITER ',' CSV HEADER;
+
+-- BotActivity
 
 SELECT
     t1.Name AS 'Bot Name',
