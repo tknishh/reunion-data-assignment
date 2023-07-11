@@ -22,4 +22,6 @@ Solution can be found in `dataSimplify.ipynb` file.
 
 ### 3. Implement the transformation using python and SQL both and submit two separate solutions
 Python: Solution can be found in `dataSimplify.ipynb` file.
+
+
 SQL: Solution can be found in `queries.sql` file.
