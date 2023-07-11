@@ -1,4 +1,11 @@
 -- SQL queries for Problem 5
+-- Assuming you have a table called TimeSeries with the following schema:
+-- Name VARCHAR(255)
+-- Start DATETIME
+-- End DATETIME
+-- Activity VARCHAR(255)
+-- 
+
 
 SELECT
     t1.Name AS 'Bot Name',
