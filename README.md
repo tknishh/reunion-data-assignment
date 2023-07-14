@@ -1,5 +1,8 @@
 # Data Assignment - Reunion
 
+### **SOLUTION**
+Each folder named with Problem Number contains a separate `README.md` file that contains solution to that particular problem.
+
 ### **TECH STACK TO BE USED**
 
 Python, SQL, Spark, Pandas & other helping libraries like Scikit-Learn, Matplotlib, Pytorch etc.
