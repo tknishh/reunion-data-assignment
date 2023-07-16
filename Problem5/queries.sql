@@ -25,4 +25,4 @@ JOIN
 GROUP BY
     t1.Name, t1.Start, t2.End
 ORDER BY
-    t1.Name, t1.Start
+    t1.Name, t1.Start, t2.End;
